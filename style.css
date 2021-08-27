@@ -22,17 +22,16 @@
 
 .ppal__cont{
 
-	border-radius: 5px;
+	border-radius: 4px;
 	width: 130px;
 	height: 40px;
 
-	margin-top: 60px;
+	margin-top: 350px;
 	padding-top: 10px;
 
 	text-align: center;
 	color: whitesmoke;
-	text-decoration: underline 1px whitesmoke;
-	background-color: #202020;
+	background-color: #333533;
 	letter-spacing: 1px;
 }
 
