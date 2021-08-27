@@ -1,0 +1,44 @@
+.contenedor{
+	background-image: url(fondo.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100vw;
+	height: 100vh;
+}
+.nav{
+	display: flex;
+	justify-content: center;
+}
+
+.ppal{
+	display: grid;
+	grid-template-columns: 170px 170px;
+	grid-template-rows: repeat(4, 100px);
+
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+}
+
+.ppal__cont{
+
+	border-radius: 5px;
+	width: 130px;
+	height: 40px;
+
+	margin-top: 60px;
+	padding-top: 10px;
+
+	text-align: center;
+	color: whitesmoke;
+	text-decoration: underline 1px whitesmoke;
+	background-color: #202020;
+	letter-spacing: 1px;
+}
+
+a, a:visited{
+	outline: none;
+	text-decoration: none;
+	color: whitesmoke;
+}
+
