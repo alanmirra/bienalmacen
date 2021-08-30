@@ -13,7 +13,7 @@
 .ppal{
 	display: grid;
 	grid-template-columns: 170px 170px;
-	grid-template-rows: repeat(4, 100px);
+	grid-template-rows: repeat(4, 80px);
 
 	justify-content: center;
 	justify-items: center;
@@ -23,10 +23,10 @@
 .ppal__cont{
 
 	border-radius: 4px;
-	width: 130px;
+	width: 150px;
 	height: 40px;
 
-	margin-top: 350px;
+	margin-top: 450px;
 	padding-top: 10px;
 
 	text-align: center;
@@ -41,3 +41,17 @@ a, a:visited{
 	color: whitesmoke;
 }
 
+.redes{
+	margin-top: 250px;
+	display: flex;
+	flex-wrap: wrap;
+	height: 70px;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+.imgs{
+	width: 50px;
+	height: 50px;
+}
