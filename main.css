@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+a, ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    max-width: 600px;
+    height: 160px;
+    background-color: #000;
+}
+
+.header-container__box{
+    box-shadow: inset 5em 1em #FFC700;
+
+    background-color: #212121;
+}
+
+.container-link{
+    height: 100%;
+}
+
+.main-container{
+
+    min-width: 200px;
+    max-width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(54,54,54,1) 100%);
+
+}
+
+.main-container__item{
+    width: 288px;
+    height: 105px;
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 6px;
+
+    margin: 10px;
+    background-color:#212121;
+}
+
+.item__title{
+
+    color: #FFFFFF;
+
+    margin: 3px 0px 3px 18px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+}
+
+.item__desc{
+    color: #808080;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+
+    margin: 2px 0px 0px 18px;
+}
+
+.containerIcon{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+
+    margin: 7px 0px 0px 18px;
+}
+
+#birra{
+    background-image: url(/Assets/beer.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#pizza{
+    background-image: url(/Assets/pizza.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#sandwich{
+    background-image: url(/Assets/sandwich.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#taco{
+    background-image: url(/Assets/taco.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#bienamano{
+    background-image: url(/Assets/manos.svg);
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+
+#tragos{
+    background-image: url(/Assets/trago-de-tequila.svg);
+    background-repeat: no-repeat;
+    background-size: contain;  
+}
+
+#vino{
+    background-image: url(/Assets/vino.svg);
+    background-repeat: no-repeat;
+    background-size: contain;  
+}
+
+#gin{
+    background-image: url(/Assets/gin-tonic.svg);
+    background-repeat: no-repeat;
+    background-size: contain;     
+}
+
+#agua{
+    background-image: url(/Assets/agua.svg);
+    background-repeat: no-repeat;
+    background-size: contain;     
+}
