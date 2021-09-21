@@ -92,55 +92,55 @@ a, ul{
 }
 
 #birra{
-    background-image: url(/Assets/beer.svg);
+    background-image: url(beer.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #pizza{
-    background-image: url(/Assets/pizza.svg);
+    background-image: url(pizza.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #sandwich{
-    background-image: url(/Assets/sandwich.svg);
+    background-image: url(sandwich.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #taco{
-    background-image: url(/Assets/taco.svg);
+    background-image: url(taco.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #bienamano{
-    background-image: url(/Assets/manos.svg);
+    background-image: url(manos.svg);
     background-repeat: no-repeat;
     background-size: contain;    
 }
 
 #tragos{
-    background-image: url(/Assets/trago-de-tequila.svg);
+    background-image: url(trago-de-tequila.svg);
     background-repeat: no-repeat;
     background-size: contain;  
 }
 
 #vino{
-    background-image: url(/Assets/vino.svg);
+    background-image: url(vino.svg);
     background-repeat: no-repeat;
     background-size: contain;  
 }
 
 #gin{
-    background-image: url(/Assets/gin-tonic.svg);
+    background-image: url(gin-tonic.svg);
     background-repeat: no-repeat;
     background-size: contain;     
 }
 
 #agua{
-    background-image: url(/Assets/agua.svg);
+    background-image: url(agua.svg);
     background-repeat: no-repeat;
     background-size: contain;     
 }
